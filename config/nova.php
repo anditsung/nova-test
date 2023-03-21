@@ -203,4 +203,11 @@ return [
         'stopped' => '/',
     ],
 
+    'routes' => [
+        'register' => '/register',
+        'login' => '/login',
+        'forgot_password' => '/forgot-password',
+        'reset_password' => '/reset-password',
+        'logout' => '/logout'
+    ],
 ];
